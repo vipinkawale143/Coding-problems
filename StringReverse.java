@@ -17,7 +17,7 @@ public class StringReverse {
 			arr2[i]=arr[j];
 			//System.out.println(arr2[i]);
 		}
-		str1=String.valueOf(arr2);// using String.valueof method to copy the char array to String do not use
+		str1=String.valueOf(arr2);// using String.valueOf method to copy the char array to String do not use
 					//toString method it will gives the hascode 
 	
 		return str1;
