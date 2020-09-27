@@ -6,7 +6,8 @@ public class StringReverse {
 
 	public static String Strrev(String str)
 	{
-		char arr[]=str.toCharArray();
+		char arr[]=str.toCharArray();// to reverse an array you need to convert it into toCharArray()
+						//so index operation can be performed
 		String str1;
 		int last=arr.length;
 		char arr2[]=new char[last];
@@ -16,7 +17,8 @@ public class StringReverse {
 			arr2[i]=arr[j];
 			//System.out.println(arr2[i]);
 		}
-		str1=String.valueOf(arr2);
+		str1=String.valueOf(arr2);// using String.valueof method to copy the char array to String do not use
+					//toString method it will gives the hascode 
 	
 		return str1;
 		
